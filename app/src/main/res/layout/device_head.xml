@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/device_head"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:padding="4dp"
+    grid:columnCount="5">
+    <ImageView
+        android:id="@+id/device_head_logo"
+        android:layout_height="96dp"
+        android:layout_width="96dp"
+        grid:layout_rowSpan="3"
+        android:src="@drawable/acb"/>
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="@string/dh_device" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="ACB" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="@string/dh_no" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="401" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="@string/dh_inn" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="3200A" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="@string/dh_in" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="2000A" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="@string/dh_mode" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="远程" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="@string/dh_state" />
+    <TextView
+        style="@style/HeadText"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:text="合闸" />
+</android.support.v7.widget.GridLayout>

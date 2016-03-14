@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="vertical"
+    tools:context="com.hawesome.edsdemo.Tab3Activity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLGray" />
+    <RadioGroup
+        android:id="@+id/rgTab"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingTop="5dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb1"
+            style="@style/TabRadioButton"
+            android:drawableTop="@drawable/ui_gray2blue_sel"
+            android:checked="true"
+            android:text="@string/tab1"/>
+        <RadioButton
+            android:id="@+id/rb2"
+            style="@style/TabRadioButton"
+            android:drawableTop="@drawable/params_gray2blue_sel"
+            android:text="@string/tab2"/>
+        <RadioButton
+            android:id="@+id/rb3"
+            style="@style/TabRadioButton"
+            android:drawableTop="@drawable/onoff_gray2blue_sel"
+            android:text="@string/tab3"/>
+        <RadioButton
+            android:id="@+id/rb4"
+            style="@style/TabRadioButton"
+            android:drawableTop="@drawable/history_gray2blue_sel"
+            android:text="@string/tab4"/>
+        <RadioButton
+            android:id="@+id/rb5"
+            style="@style/TabRadioButton"
+            android:drawableTop="@drawable/tag_gray2blue_sel"
+            android:text="@string/tab5"/>
+    </RadioGroup>
+</LinearLayout>

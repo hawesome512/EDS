@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_alignParentBottom="true"
+            android:background="#424242" >
+        </TabWidget>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/theme"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/theme_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tab1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wallpaper"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/wallpaper_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tab2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/iconbg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/iconbg_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tab3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/screenlock"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/screenlock_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tab4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/effect"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/effect_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tab5" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+</TabHost>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">EDS</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_email">用户名不能为空</string>
+    <string name="error_invalid_password">密码不能为空</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">用户名不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!--Canvas-->
+    <string name="circle">圆形</string>
+    <string name="square">正方形</string>
+    <string name="rect">矩形</string>
+    <string name="round_rect">圆角矩形</string>
+    <string name="oval">椭圆形</string>
+    <string name="triangle">三角形</string>
+    <string name="pentagon">五边形</string>
+    <string name="tab1">遥测</string>
+    <string name="tab2">遥信</string>
+    <string name="tab3">遥控</string>
+    <string name="tab4">记录</string>
+    <string name="tab5">其他</string>
+    <!--Device Head-->
+    <string name="dh_device">设备类型</string>
+    <string name="dh_no">设备编号</string>
+    <string name="dh_inn">框架等级</string>
+    <string name="dh_in">额定电流</string>
+    <string name="dh_mode">控制模式</string>
+    <string name="dh_state">开关状态</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
